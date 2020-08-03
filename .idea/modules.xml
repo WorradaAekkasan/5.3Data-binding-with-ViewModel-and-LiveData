@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/5.1-GuessTheWord-Starter-master.iml" filepath="$PROJECT_DIR$/.idea/modules/5.1-GuessTheWord-Starter-master.iml" group="5.1-GuessTheWord-Starter-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="5.1-GuessTheWord-Starter-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/5.2-LiveData-and-LiveData-observers-master.iml" filepath="$PROJECT_DIR$/.idea/modules/5.2-LiveData-and-LiveData-observers-master.iml" group="5.2-LiveData-and-LiveData-observers-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="5.2-LiveData-and-LiveData-observers-master/app" />
     </modules>
   </component>
 </project>
