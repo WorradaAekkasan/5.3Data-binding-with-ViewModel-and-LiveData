@@ -72,25 +72,22 @@ class GameFragment : Fragment() {
         binding.skipButton.setOnClickListener { onSkip() }
         binding.endGameButton.setOnClickListener { onEndGame() }
 
+
         updateScoreText()
         updateWordText()
         return binding.root
 
     }
 
+
     /** Methods for button click handlers **/
 
     private fun onSkip() {
-
         viewModel.onSkip()
-        updateWordText()
-        updateScoreText()
     }
 
     private fun onCorrect() {
         viewModel.onCorrect()
-        updateScoreText()
-        updateWordText()
     }
 
     private fun onEndGame() {
@@ -112,4 +109,5 @@ class GameFragment : Fragment() {
         findNavController(this).navigate(action)
         viewModel.onGameFinishComplete()
     }
+
 }
